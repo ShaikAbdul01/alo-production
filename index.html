@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alo Production</title>
+    <!-- Tailwind Link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gray: "#4E4E4E",
+              blacky: "#131313;",
+              yellow: "#FECC02 ",
+              white: "#FFFFFF",
+            },
+            fontFamily: {
+              bebas: ["Bebas Neue", "cursive"],
+              poppins: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Nab Bar  -->
+    <header class="mb-40">
+      <nav class="bg-white fixed top-0 left-0 right-0 p-5 text-blacky">
+        <div
+          class="w-full max-w-7xl mx-auto flex font-bebas text-blacky justify-between items-center">
+          <div class="text-3xl">
+            <h1>Alo Production</h1>
+          </div>
+          <div class="text-xl">
+            <ul class="flex gap-5">
+              <li>About US</li>
+              <li>our Movies</li>
+              <li>Services</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner Heading  -->
+      <section
+        class="bg-[url('images/banner.jpg')] w-full bg-cover h-screen flex items-center pt-5">
+        <div class="w-full max-w-7xl mx-auto p-5">
+          <h3 class="text-white text-xl font-normal font-bebas">
+            Movie production studio
+          </h3>
+          <h1 class="text-white text-7xl font-normal font-bebas">
+            Films Made to
+          </h1>
+          <h1 class="text-yellow text-7xl font-normal font-bebas">
+            Perfection
+          </h1>
+          <p class="text-white text-poppins py-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus <br />nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <button
+            class="text-xl border-2 border-white p-3 font-bebas text-white">
+            <a href="">Discover More</a>
+          </button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- Banner Section 1 Filming Experience  -->
+      <section class="max-w-7xl mx-auto border-2 border-black p-5 mb-40">
+        <div class="md:flex gap-5 mb-16">
+          <div
+            class="bg-[url('images/camera-man.jpg')] h-96 w-full bg-cover p-5 mb-10 flex justify-center items-end bg-center">
+            <h3
+              class="bg-white font-bebas text-3xl text-center p-3 w-3/4 rounded-xl mx-auto -mb-12 shadow-lg">
+              23 YEARS of EXPERIENCE
+            </h3>
+          </div>
+
+          <div class="w-full font-blacky">
+            <h4 class="font-bebas text-base">ABOUT US</h4>
+            <h1 class="font-bebas text-7xl">
+              FIlming Experience Just Got better
+            </h1>
+            <p class="font-poppins text-gray py-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              reiciendis ab velit nam eaque non.
+            </p>
+            <button
+              class="text-xl border-2 border-blacky p-3 font-bebas text-blacky">
+              <a href="">Discover More</a>
+            </button>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-5">
+          <div class="">
+            <hr class="border-2 w-3/4" />
+            <h1 class="font-bebas text-7xl">OUR VISION</h1>
+            <p class="font-poppins text-gray py-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+          </div>
+          <div class="">
+            <hr class="border-2 w-3/4" />
+            <h1 class="font-bebas text-7xl">OUR Mission</h1>
+            <p class="font-poppins text-gray py-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+          </div>
+          <div class="">
+            <hr class="border-2 w-3/4" />
+            <h1 class="font-bebas text-7xl">OUR Motto</h1>
+            <p class="font-poppins text-gray py-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Movie Collection  -->
+      <section class="bg-gray p-5 mb-40">
+        <div class="flex justify-between items-center max-w-7xl mx-auto mb-8">
+          <div class="text-white justify-between">
+            <h4 class="font-bebas text-base">OUR MOVIES</h4>
+            <h1 class="font-bebas text-7xl">Movie collection</h1>
+          </div>
+          <div class="">
+            <button
+              class="text-xl border-2 border-white p-3 font-bebas text-white">
+              <a href="">See More Movies</a>
+            </button>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-4 gap-5 p-5">
+          <div class="border-2 border-white p-5">
+            <div
+              class="bg-[url('images/fractured.jpg')] h-[800px] md:h-[500px] w-full mx-auto bg-cover"></div>
+          </div>
+          <div class="border-2 border-white p-5">
+            <div
+              class="bg-[url('images/inception.jpg')] h-[800px] md:h-[500px] w-full mx-auto bg-cover"></div>
+          </div>
+          <div class="border-2 border-white p-5">
+            <div
+              class="bg-[url('images/interstellar.jpg')] h-[800px] md:h-[500px] w-full mx-auto bg-cover"></div>
+          </div>
+          <div class="border-2 border-white p-5">
+            <div
+              class="bg-[url('images/tenet.jpg')] h-[800px] md:h-[500px] w-full mx-auto bg-cover"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offer Section  -->
+      <section class="mx-auto max-w-7xl mb-40">
+        <div class="text-center font-bebas mb-16">
+          <h4 class="text-normal">services</h4>
+          <h1 class="text-7xl">what we offer</h1>
+        </div>
+        <div class="grid md:grid-cols-4 px-5 gap-8">
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/camera.png"
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">movies director</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/3d-glasss.png"
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">3D MOVIES</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/film.png"
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">Film maker</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/theater.png "
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">Studio Production</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/director-chair.png"
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">Drama Movies</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/rim.png"
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">Rolling Production</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/cut-board.png             "
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">Movie Production</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border-2 p-5">
+            <img
+              class="h-[70px] w-[70px] mb-5 mx-auto"
+              src="images/icons/count-down.png"
+              alt=""
+              srcset="" />
+            <div class="text-center">
+              <h2 class="font-bebas text-xl">actor action</h2>
+              <p class="font-poppins text-normal font-gray">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section  -->
+    <footer class="bg-[url('images/footer-bg.jpg')] bg-cover w-full p-14">
+      <section class="text-center text-white">
+        <h1 class="font-bebas text-7xl">Alo production</h1>
+        <h4 class="font-bebas text-2xl">next level experience</h4>
+        <p class="mb-24">
+          Feugiat nibh litora semper proin nullam facilisi <br>volutpat ex
+          ullamcorper.
+        </p>
+        <small>Copyright © 2023 Alo Production, All rights reserved. Present by Shaik Abdul Ahad</small>
+      </section>
+    </footer>
+  </body>
+</html>
